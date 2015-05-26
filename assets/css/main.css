@@ -1,0 +1,68 @@
+/* Preloader */
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:none; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+.navbar-default{
+    background-color: #fff;
+}
+.ad-nav{
+    /*background: #408080;*/
+    height: 95px;
+    overflow: hidden;
+}
+.ad-thumbs {
+    margin-top: 25px;
+    position: absolute;
+    top: 90px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.ad-gallery .ad-nav:hover .ad-thumbs{
+    top: 0px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.ad-gallery{
+    margin: auto;
+}
+.img-box{
+    height: 400px;
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.ad-caption{
+    float: left;
+}
+
+.ad-gallery .ad-image-wrapper {
+height: 400px;
+}
+
+
+
+
+
